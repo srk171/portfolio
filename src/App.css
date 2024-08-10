@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-image: url(./assets/pic1.avif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @apply xl:bg-center ;
+    scroll-behavior: smooth;
+    
+}
+.mobile-nav{
+    @apply fixed top-10 left-0 bg-slate-700  w-full h-1/4;
+}
+.mobile-nav li{
+    @apply w-full h-full text-center border-b-2 mt-1 text-[18px];
+}
+.my-name {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+header ul li{
+    @apply px-5
+    
+}
+.bg-black{
+    background-color: #000000;
+}
+.bg-secondary1{
+    background-color: rgb(5, 5, 5);
+}
+.grn{
+    background-color: rgb(22, 225, 120);
+}
+
+.footer{
+    background-color: black;
+    margin-top: 200px;
+    color: white;
+    display: flex;
+    padding: 2px;
+    padding-left: 40%;
+   
+}
+.About {
+    font-family: "Reggae One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+
+
