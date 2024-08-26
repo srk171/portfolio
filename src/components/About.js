@@ -25,7 +25,7 @@ export default function About() {
     <div className="md:flex ">
     <div className='flex-col  md:w-1/2  px-5 py-10 font-extrabold font-aboutfont lg:w-3/4 xl:w-1/2 '>
           <p className="whitespace-nowrap tracking-[8px] text-3xl lg:text-4xl xl:text-[45px]  ">About me</p>
-          <img className="h-[35vh] w-[35vh] md:h-[40vh] md:w-[40vh] lg:h-[43vh] lg:w-[45vh] xl:w-[48vh] xl:h-[45vh] py-3 " src={AboutImg} ></img>
+          <img className="h-[35vh] w-[35vh] md:h-[40vh] md:w-[40vh] lg:h-[43vh] lg:w-[45vh] xl:w-[48vh] xl:h-[45vh] py-3" src={AboutImg} alt="1"></img>
     </div> 
 
     <div className="md:w-1/2 lg:w-3/4">     

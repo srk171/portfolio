@@ -1,6 +1,7 @@
 import React from "react";
 import proimg from '../assets/pic5.jpg';
 import proimg1 from '../assets/pic6.webp';
+import proimg2 from '../assets/cone-winder.jpg';
 import '../App.css';
 import { TbHandClick } from "react-icons/tb";
 
@@ -15,7 +16,7 @@ export default function Project(){
         
         <div className=" flex flex-col md:flex-row px-10 py-10 gap-10 justify-center ">
            <div className="relative hover:scale-110 transition duration-700">
-            <img className="h-[250px]  md:h-[300px] lg:w-[300px] xl:w-[400px] shadow-blue-800 shadow-2xl " src={proimg} />
+            <img className="h-[250px]  md:h-[300px] lg:w-[300px] xl:w-[400px] shadow-blue-800 shadow-2xl " src={proimg} alt="1" />
             <div className="absolute left-0 right-0 bottom-0 top-0 bg-secondary1 text-white opacity-0 duration-500 hover:opacity-100 ">
             <p className="text-center px-10 py-10">Textile and Chemical laboratory website, built with HTML,CSS and JAVASCRIPT.</p>
             <a className="hover:text-green-600 px-5 py-2 flex flex-row justify-center text-xl" href="https://github.com/srk171/sivark">view project <TbHandClick size={30}/> </a>
@@ -24,13 +25,32 @@ export default function Project(){
             </div> 
             </div>
            <div className="relative hover:scale-110 transition duration-700">
-            <img className="h-[250px] md:h-[300px] lg:w-[300px] xl:w-[400px] shadow-blue-800 shadow-2xl " src={proimg1} />
+            <img className="h-[250px] md:h-[300px] lg:w-[300px] xl:w-[400px] shadow-blue-800 shadow-2xl " src={proimg1} alt="2" />
             <div className="absolute left-0 right-0 bottom-0 top-0 bg-secondary1 text-white opacity-0 duration-500 hover:opacity-100">
             <p className="text-center  px-10 py-10">shop Ecommerce website, built with front-end technology and python(Django framework).</p>
             <a className="hover:text-green-600 px-5 py-2 flex flex-row justify-center text-xl" href="https://github.com/srk171/python_proj">view project <TbHandClick size={30}/> </a>
             </div>
             </div>
+
+            
+            
+
+
         </div>
+
+        <div className=" flex pb-5  md:flex-row px-10 py-2 gap-10 justify-center">
+               <div className="relative hover:scale-110 transition duration-700">
+               <img className="h-[240px] w-[325px] md:h-[300px] lg:w-[300px] xl:w-[400px] shadow-blue-800 shadow-2xl " src={proimg2} alt="3" />
+               <div className="absolute left-0 right-0 bottom-0 top-0 bg-secondary1 text-white opacity-0 duration-500 hover:opacity-100 ">
+               <p className="text-center px-10 py-10">This is a Textile Knitting company website, built with React.js .</p>
+               <a className="hover:text-green-600 px-5 py-2 flex flex-row justify-center text-xl" href="https://kaniya-srk171-sivaranjith-kumars-projects.vercel.app/">view project <TbHandClick size={30}/> </a>
+            
+            
+              </div> 
+              </div>
+              </div>
+
+
         </div>
     </section>
 }
