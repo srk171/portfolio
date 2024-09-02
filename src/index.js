@@ -12,6 +12,11 @@ import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/contact';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
+AOS.init();
+
 
 const router = createBrowserRouter([
   {

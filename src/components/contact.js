@@ -8,10 +8,10 @@ import '../App.css';
 export default function Contact(){
     return <section className="flex flex-col font-bold">
       
-        <p className=" About text-2xl sm:text-3xl flex py-10 xl:py-20 md:text-4xl xl:text-5xl justify-center text-green-800">GET IN TOUCH</p>
-          <p className="text-base xl:text-3xl  flex py-3  justify-center">WhatsApp : +91 7708380872</p>
-          <p className="text-base md:text-xl lg:text-xl xl:text-3xl flex py-3  justify-center">Email : sivalatha1710@gmail.com</p>
-          <p className="text-base md:text-xl xl:text-3xl flex py-3   justify-center"> Linkedin : www.linkedin.com/in/siva1710  </p>
+        <p className=" About text-2xl sm:text-3xl flex py-10 xl:py-20 md:text-4xl xl:text-5xl justify-center text-green-800" data-aos="flip-right" data-aos-duration="2000">GET IN TOUCH</p>
+          <p className="text-base xl:text-3xl  flex py-3  justify-center" data-aos="zoom-out" data-aos-duration="2000">WhatsApp : +91 7708380872</p>
+          <p className="text-base md:text-xl lg:text-xl xl:text-3xl flex py-3  justify-center" data-aos="zoom-out" data-aos-duration="2000">Email : sivalatha1710@gmail.com</p>
+          <p className="text-base md:text-xl xl:text-3xl flex py-3   justify-center" data-aos="zoom-out" data-aos-duration="2000"> Linkedin : www.linkedin.com/in/siva1710  </p>
          
       
           <div className="flex justify-center py-5 ">

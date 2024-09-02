@@ -25,18 +25,18 @@ export default function About() {
     <div className="md:flex ">
     <div className='flex-col  md:w-1/2  px-5 py-10 font-extrabold font-aboutfont lg:w-3/4 xl:w-1/2 '>
           <p className="whitespace-nowrap tracking-[8px] text-3xl lg:text-4xl xl:text-[45px]  ">About me</p>
-          <img className="h-[35vh] w-[35vh] md:h-[40vh] md:w-[40vh] lg:h-[43vh] lg:w-[45vh] xl:w-[48vh] xl:h-[45vh] py-3" src={AboutImg} alt="1"></img>
+          <img className="h-[35vh] w-[35vh] md:h-[40vh] md:w-[40vh] lg:h-[43vh] lg:w-[45vh] xl:w-[48vh] xl:h-[45vh] py-3" data-aos="zoom-out" data-aos-duration="2000" src={AboutImg} alt="1"></img>
     </div> 
 
     <div className="md:w-1/2 lg:w-3/4">     
-          <p className='pb-2 text-green-500 text-lg md:text-[22px] lg:text-2xl xl:text-3xl md:mt-28 lg:mt-38 xl:mt-36 ml-5'>{config.line1}</p> 
-          <p className=' text-md md:text-xl lg:text-2xl xl:text-3xl  md:mt-2 lg:mt-5 xl:mt-7 ml-5 pb-5  xl:w-3/4 '>{config.line2} </p>
+          <p className='pb-2 text-green-500 text-lg md:text-[22px] lg:text-2xl xl:text-3xl md:mt-28 lg:mt-38 xl:mt-36 ml-5' data-aos="fade-right" data-aos-duration="2000">{config.line1}</p> 
+          <p className=' text-md md:text-xl lg:text-2xl xl:text-3xl  md:mt-2 lg:mt-5 xl:mt-7 ml-5 pb-5  xl:w-3/4 ' data-aos="fade-right" data-aos-duration="2000">{config.line2} </p>
     </div>  
 
     </div>    
      
       
-    <div className='md:flex     font-aboutfont1 font-medium '>
+    <div className='md:flex     font-aboutfont1 font-medium ' data-aos="fade-right" data-aos-duration="2000">
 
         <div className='md:flex-col xl:py-8 md:w-1/2 lg:w-3/4 xl:w-1/2 '>
           
@@ -60,12 +60,12 @@ export default function About() {
            
 
     </div>
-    <div className="md:mt-3">
+    <div className="md:mt-3" data-aos="fade-right" data-aos-duration="2000">
       <p className="pb-1 px-5 text-sm md:text-lg lg:text-xl  md:first-line:tracking-widest md:first-letter:text-7xl  md:first-letter:font-bold md:first-letter:mr-5 md:first-letter:float-left">Hi there,</p>
       <p className="pb-3 px-5 text-md md:text-xl lg:text-1xl xl:text-2xl md:w-full whitespace-pre-wrap">I have completed a Full-Stack python course.As a versatile developer, I possess a robust skill set that spans both front-end and back-end technologies. I am proficient in HTML, CSS, Bootstrap, and Tailwind CSS, allowing me to craft visually appealing and responsive interfaces. Additionally, I have expertise in JavaScript and React.js, enabling me to build dynamic and interactive client-side applications. On the back-end, I am well-versed in Python and the Django framework, capable of building scalable and efficient server-side logic. I am also skilled in database management using MySQL. Furthermore, I am proficient in version control using Git, ensuring seamless collaboration and tracking of changes. Lastly, I have experience with Microsoft Excel, enabling me to effectively manage and analyze data. With this comprehensive skill set, I am equipped to tackle a wide range of projects and deliver high-quality results.</p>
     </div>
 
-    <div>
+    <div >
   <div class="flex items-center space-x-2  ml-16 md:ml-60 ">
     <h4 class="font-semibold text-green-600 text-lg md:text-xl lg:text-2xl ">What i knew.........</h4>
     

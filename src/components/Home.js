@@ -5,7 +5,7 @@ export default function Home(){
     
     return <section className="flex flex-col px-8 py-20 ">
         <div className=''>
-        <div className="flex flex-col ">
+        <div className="flex flex-col " data-aos="fade-down" data-aos-duration="2000">
        
             <h1 className="text-4xl md:text-4xl lg:text-5xl xl:text-6xl pt-5 font-homefont3 lg:ml-5">Hi, <br/>I am Sivaranjithkumar 
             <p className="flex text-2xl lg:text-3xl xl:text-4xl py-5 font-homefont2 whitespace-nowrap ">Full-Stack developer </p>
